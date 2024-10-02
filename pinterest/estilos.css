@@ -1,0 +1,28 @@
+.tarjeta {
+  height: 400px;
+  width: 300px;
+  border: 1px solid;
+  background-image: url("https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jhin_0.jpg");
+  border-radius: 20px;
+}
+
+.mask {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, .2);
+  visibility: hidden;
+}
+
+.mask:hover {
+  visibility: visible;
+}
+
+/* .tarjeta {
+  height: 400px;
+  width: 300px;
+  border: 1px solid;
+}
+
+.imagen {
+  width: 300px;
+} */

@@ -1,0 +1,43 @@
+body {
+  background-color: black
+}
+
+.tarjeta {
+  height: 323px;
+  width: 221px;
+  /* background-color: pink; */
+  background-image: url("https://pbs.twimg.com/media/DiPdlJHX0AIBKg1.jpg");
+  background-position: 48.9062% 15%;
+  background-size: cover;
+  border: 1px solid goldenrod;
+}
+
+.caja-nombre, .caja-extra {
+  background-color: black;
+  opacity: .7;
+  border-top: 1px solid goldenrod;
+  padding: 22px;
+}
+
+.imagen {
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  flex-direction: column;
+}
+
+.nombre, .explorar {
+  color: goldenrod ;
+}
+
+.region {
+  color: rgb(169, 165, 141);
+}
+
+.caja-texto {
+  height: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
