@@ -51,7 +51,7 @@ let pagoTarjeta = false
 let papitas = true
 
 if (personas == 1) {
-  console.log('Mostrtar productos personales')
+  console.log('Mostrar productos personales')
   if (papitas) {
     console.log("mostrar tamaños")
   }
@@ -64,4 +64,12 @@ if (personas == 1) {
 if (pagoTarjeta) {
   console.log('Te descontamos')
 }
+
+// si jugador1 === 'piedra'
+  // 2 if 
+    // si jugador2 === 'papel'
+      // gana jugador2
+    // si jugador2 === 'tijera'
+    //   gana jugador1
+
 
