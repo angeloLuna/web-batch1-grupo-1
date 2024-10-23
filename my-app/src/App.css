@@ -1,0 +1,28 @@
+.App {
+  height: 100vh;
+  background-color: #282c34;
+}
+
+.counter {
+  color: white
+}
+
+.card {
+  border: 1px solid gold;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 24px;
+  color: gold;
+}
+
+.desc {
+  color: gold;
+}
