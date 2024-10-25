@@ -1,49 +1,32 @@
 import { useState } from 'react'
-import './App.css';
-import Card from './Card';
-import axios from 'axios';
+import Navbar from './componentes/Navbar.js'
+import Modal from './componentes/Modal.js'
+import Card from './Card.js'
+import './App.css'
 
 function App() {
 
-  // definicion de estados
-  const [contador, setContador] = useState(0)
-  const [result, setResult] = useState([])
-  // funcion para contar
-  const contar = () => {
-    // contar
-    console.log('contando', contador);
-    setContador(contador + 1)
+  const [mostrarModal, setMostrarModal] = useState(false)
+
+  const changeMostrarModal = () => {
+
+    setMostrarModal( !mostrarModal )
+    
   }
 
-  // llamada de pokeapi con axios
-  axios.get('https://pokeapi.co/api/v2/pokemon')
-    .then(function (response) {
-      // manejar respuesta exitosa
-      if (response) {
-        setResult(response.data.results)
-        console.log(response.data.results)
-      }
-    })
-
-  const productos = [{
-    nombre: 'Manimoto',
-    precio: 6000,
-    url: '',
-
-  }, {
-    nombre: 'coca-cola',
-    precio: 6000,
-    url: ''
-  },
-  ]
-
+  console.log(mostrarModal)
 
   return (
     <div className="App">
-      {/* <Card contar={contar} contador={contador} /> */}
+      <Navbar changeMostrarModal={changeMostrarModal} />
+      
       {
-        result.map((item) => <Card nombre={item.name} url={item.url} />)
+        mostrarModal ? <Modal changeMostrarModal={changeMostrarModal} /> : <Card />
       }
+      {
+        // mostrarModal && <Modal changeMostrarModal={changeMostrarModal} />
+      }
+      
     </div>
   );
 }
