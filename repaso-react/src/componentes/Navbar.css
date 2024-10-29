@@ -1,0 +1,18 @@
+.navbar-container {
+  height: 80px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 30px;
+  align-items: center;
+  box-shadow: 0px 3px 19px 0px rgba(0,0,0,0.75);
+}
+
+.navbar-button {
+  height: 30px;
+  width: 150px;
+  background-color: rgb(75, 137, 207);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}

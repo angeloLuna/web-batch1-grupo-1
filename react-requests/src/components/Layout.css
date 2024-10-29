@@ -1,0 +1,58 @@
+.background-img {
+  height: 100vh;
+  background-image: url('../assets/img/championsBackground.jpg');
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.content {
+  background-color: rgba(0, 0, 0, 0.731);
+  height: 100%;
+  box-sizing: border-box;
+  border: 1px solid white;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: #121212;
+  display: flex;
+  height: 90px;
+  padding: 0 30px;
+  margin-top: 40px;
+  align-items: center;
+  color: gold;
+  justify-content: space-between;
+}
+
+.title {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #c4b998;
+  align-items: center;
+}
+
+.title-text {
+  font-size: 24px;
+}
+
+.helmet {
+  height: 32px;
+  width: 18px;
+}
+
+.champions {
+  margin-top: 50px;
+  padding: 0 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px
+}
