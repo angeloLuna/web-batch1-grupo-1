@@ -6,24 +6,24 @@ function App() {
 
 const [mostrarBoton, setMostrarBoton] = useState(false)
 
-const [datos, setDatos] = useState([
-  {
-    id,
-    titulo,
-    desc,
-    url,
-    comment: [],
-    likes,
-    user
-  }
-])
+// const [datos, setDatos] = useState([
+//   {
+//     id,
+//     titulo,
+//     desc,
+//     url,
+//     comment: [],
+//     likes,
+//     user
+//   }
+// ])
 
 
 
 console.log(mostrarBoton);
 
 const cambiarEstado = () => {
-  console.log('funciona')
+  console.log('funcionaqqq')
   setMostrarBoton(true)
 }
 

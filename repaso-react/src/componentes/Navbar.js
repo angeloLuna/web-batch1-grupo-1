@@ -1,9 +1,17 @@
 import './Navbar.css'
+import Button from './styled/Button'
 
 const Navbar = ({ cambiarEstado }) => {
   return(
     <div className='navbar-container'>
-      <button onClick={cambiarEstado} className='navbar-button'>Iniciar sesión</button>
+      <Button 
+        texto="Iniciar sesión" 
+        onClick={cambiarEstado}
+      />
+      <Button 
+        texto="Regístrate" 
+        onClick={cambiarEstado}
+      />
     </div>
   )
 }

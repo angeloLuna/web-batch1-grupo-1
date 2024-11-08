@@ -1,0 +1,9 @@
+.navbar-container {
+  border-bottom: 1px solid rgb(123, 116, 75);
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(123, 116, 75);
+  font-size: 1.7rem;
+}

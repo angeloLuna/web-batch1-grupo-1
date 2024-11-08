@@ -1,0 +1,32 @@
+.esquinas-container {
+  display: flex;
+  border: 1px solid red;
+}
+.item {
+  border: 1px solid white;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.item-1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.item-2 {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.item-3 {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.item-4 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
