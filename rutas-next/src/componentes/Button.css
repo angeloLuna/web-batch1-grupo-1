@@ -1,0 +1,9 @@
+.button-container {
+  border: 1px solid goldenrod;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0 10px;
+  min-height: 50px;
+  min-width: 100px;
+}

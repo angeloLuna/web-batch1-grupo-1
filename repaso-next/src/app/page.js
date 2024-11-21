@@ -39,11 +39,7 @@ export default function Home() {
         showMenu && <Menu />
       }
       
-      {
-        data && <span style={{color: 'white'}}>{data}</span>
-      }
-
-      <Esquinas />
+      {/* <Esquinas /> */}
     </div>
   );
 }
